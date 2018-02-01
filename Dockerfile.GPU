@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         build-essential \
         ca-certificates \
         wget \
-        make
+        make \
         doxygen \
         freeglut3* \
         g++ \
