@@ -12,5 +12,5 @@ docker run --runtime=nvidia --rm -it jermine/tensorflow:gpu nvidia-smi
 ```
 ## Get pip3 list
 ```
-docker run --rm -it jermine/tensorflow:gpu pip3 list
+docker run --rm -it jermine/tensorflow:gpu pip3 list --format=columns
 ```
