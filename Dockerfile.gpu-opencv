@@ -21,6 +21,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         wget \
         cmake \
         g++ \
+        gcc \
        # doxygen \
        # freeglut3* \
        # gfortran \
