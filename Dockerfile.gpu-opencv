@@ -15,65 +15,64 @@ ENV OPENCL_ENABLED=OFF
 LABEL com.nvidia.cudnn.version="${CUDNN_VERSION}"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-        apt-utils \
-        build-essential \
+       # apt-utils \
+       # build-essential \
         ca-certificates \
         wget \
         cmake \
-        doxygen \
-        freeglut3* \
         g++ \
-        gfortran \
-        graphviz \
-        libatlas-base-dev \
-        libatlas-base-dev \
-        libavcodec-dev \
-        libavformat-dev \
-        libboost-* \
-        libcupti-dev \
-        libdc1394-22-dev \
-        libeigen3-dev \
-        libfaac-dev \
-        libfreetype6-dev \
-        libgflags-dev \
-        libgl1-mesa-dev \
-        libgoogle-glog-dev \
-        libgphoto2* \
-        libgstreamer* \
-        libgtk-3-dev \
-        libgtkglext1* \
-        libhdf5-dev \
-        libhdf5-serial-dev \
-        libjasper-dev \
-        libjpeg-dev \
-        liblapacke-dev \
-        libleveldb-dev \
-        liblmdb-dev \
-        libopenblas-dev \
-        libopencore-amrnb-dev \
-        libopencore-amrwb-dev \
-        libopencv-dev \
-        libopenni2* \
-        libpng-dev \
-        libprotobuf-dev \
-        libsnappy-dev \
-        libswscale-dev \
-        libtbb-dev \
-        libtbb2 \
-        libtheora-dev \
-        libtiff-dev \
-        libv4l-dev \
-        libvorbis-dev \
-        libzmq3-dev \
-        libxvidcore-dev \
-        mesa-common-dev \
-        ocl-icd-opencl-dev \
-        openblas-* \
-        openblas* \
-        pkg-config \
-        protobuf-compiler \
-        software-properties-common \
-        v4l-utils \
+       # doxygen \
+       # freeglut3* \
+       # gfortran \
+       # graphviz \
+       # libatlas-base-dev \
+       # libavcodec-dev \
+       # libavformat-dev \
+       # libboost-* \
+       # libcupti-dev \
+       # libdc1394-22-dev \
+       # libeigen3-dev \
+       # libfaac-dev \
+       # libfreetype6-dev \
+       # libgflags-dev \
+       # libgl1-mesa-dev \
+       # libgoogle-glog-dev \
+       # libgphoto2* \
+       # libgstreamer* \
+       # libgtk-3-dev \
+       # libgtkglext1* \
+       # libhdf5-dev \
+       # libhdf5-serial-dev \
+       # libjasper-dev \
+       # libjpeg-dev \
+       # liblapacke-dev \
+       # libleveldb-dev \
+       # liblmdb-dev \
+       # libopenblas-dev \
+       # libopencore-amrnb-dev \
+       # libopencore-amrwb-dev \
+       # libopencv-dev \
+       # libopenni2* \
+       # libpng-dev \
+       # libprotobuf-dev \
+       # libsnappy-dev \
+       # libswscale-dev \
+       # libtbb-dev \
+       # libtbb2 \
+       # libtheora-dev \
+       # libtiff-dev \
+       # libv4l-dev \
+       # libvorbis-dev \
+       # libzmq3-dev \
+       # libxvidcore-dev \
+       # mesa-common-dev \
+       # ocl-icd-opencl-dev \
+       # openblas-* \
+       # openblas* \
+       # pkg-config \
+         protobuf-compiler \
+       # software-properties-common \
+       # v4l-utils \
         unzip \
         x264 \
         zlib1g-dev && \
