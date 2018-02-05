@@ -21,10 +21,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         wget \
         cmake \
         g++ \
-        doxygen \
-        freeglut3* \
-        gfortran \
-        graphviz \
+        #doxygen \
+        #freeglut3* \
+        #gfortran \
+        #graphviz \
        # libatlas-base-dev \
        # libavcodec-dev \
        # libavformat-dev \
@@ -51,7 +51,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
        # libopenblas-dev \
        # libopencore-amrnb-dev \
        # libopencore-amrwb-dev \
-       # libopencv-dev \
+        libopencv-dev \
        # libopenni2* \
        # libpng-dev \
        # libprotobuf-dev \
@@ -71,8 +71,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
        # openblas* \
        # pkg-config \
          protobuf-compiler \
-        software-properties-common \
-        v4l-utils \
+       # software-properties-common \
+        #v4l-utils \
         unzip \
         x264 \
         zlib1g-dev && \
