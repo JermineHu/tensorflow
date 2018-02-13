@@ -1,0 +1,5 @@
+FROM jermine/dl:tensorflow.gpu.opencv
+MAINTAINER Jermine.hu@qq.com
+RUN apt-get update -y  && apt-get install -y --no-install-recommends gcc g++ python3-dev;\
+    apt-get autoremove && apt-get autoclean ;\
+    rm -rf /var/lib/apt/lists/*
